@@ -1,0 +1,93 @@
+[Root]
+Most Recent Package=TCG
+
+
+[Package|TCG|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\Secret\TCG\Package
+
+[Package|TCG|Configure DAO ISAMs]
+Applicable=No
+
+[Package|TCG|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|TCG|Files Found]
+
+[Package|TCG|Files Released]
+
+[Package|TCG|Missing Dependency Information]
+
+[Package|TCG|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|TCG|Files Added]
+
+[Package|TCG|Files Removed]
+
+[Package|TCG|Files In Project]
+C:\Secret\TCG\TCG.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\WINDOWS\system32\oleaut32.dll=Yes
+C:\WINDOWS\system32\olepro32.dll=Yes
+C:\WINDOWS\system32\asycfilt.dll=Yes
+C:\WINDOWS\system32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSFLXGRD.OCX=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|TCG|Configure Registry Files]
+Applicable=No
+
+[Package|TCG|Configure Remote Servers]
+Applicable=No
+
+[Package|TCG|Install Locations]
+C:\Secret\TCG\TCG.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\oleaut32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\asycfilt.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSFLXGRD.OCX=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|TCG|Configure Shared Files]
+Applicable=Yes
+C:\Secret\TCG\TCG.exe=No
+
+[Package|TCG|Distribution]
+Type=single
+Size=
+Title=TCG
+
+[Package|TCG|IconGroups]
+Group0=TCG
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|TCG|TCG]
+Icon1=TCG.exe
+Title1=TCG
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|TCG|Package]
+PackageFolder=C:\Secret\TCG\Package
+ProjectFolder=C:\Secret\TCG
+ServerSideCab=
+File1=C:\Secret\TCG\Package\setup.exe
+File2=C:\Secret\TCG\Package\Setup.Lst
+File3=C:\Secret\TCG\Package\TCG.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
